@@ -1,9 +1,9 @@
 package com.brajesh.solid.srp_fix_with_ocp.ObserverStrategySendNotification;
 
+
 import java.util.List;
 
 public class ObserverPatternTest {
-
 
     static void main() throws InterruptedException {
         List<NotificationStrategy> emailAndSms =
@@ -23,6 +23,10 @@ public class ObserverPatternTest {
 
         iphone.setAvailable(false);
         Thread.sleep(10000);
+        iphone.setAvailable(true);
+        iphone.removeObserver(Tinkoo);
+        Thread.sleep(10000);
+        iphone.setAvailable(false);
         iphone.setAvailable(true);
     }
 }
