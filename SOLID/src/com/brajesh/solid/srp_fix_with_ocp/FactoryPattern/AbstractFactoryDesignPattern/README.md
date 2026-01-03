@@ -2,7 +2,7 @@
 Just Demonstrate Desgin principle (SOLID) with Desgin Pattern
 
 ![Class Digram](images/img1.png)
-![Class Digram](images/img2.png)
+![Class Digram](images/img2.jpeg)
 
 ```java
 
