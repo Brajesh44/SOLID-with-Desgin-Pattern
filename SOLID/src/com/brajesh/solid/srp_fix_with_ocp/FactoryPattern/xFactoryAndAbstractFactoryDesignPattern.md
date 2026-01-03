@@ -71,3 +71,5 @@ Strategy lets the algorithm vary independently of clients that use it.”
 3. **Strategy        → HOW to do**
 
 Keep this line in mind while reading everything below.
+```.jpg`
+Image 03-01-26 at 15.13.jpg
